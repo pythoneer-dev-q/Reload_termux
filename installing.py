@@ -31,5 +31,5 @@ def install_modules():
     print("Запускаем программу reload")
     time.sleep(4)
     os.system('cls' if os.name == 'nt' else 'clear')
-    os.system('reload.py')
+    os.system('reload_termux.py')
 install_modules()
